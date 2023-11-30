@@ -13,7 +13,7 @@ int main (){
     cout << "Digite o numero de linhas e colunas da segunda matriz";
     cin >> linha2 >> coluna2;
     if(coluna1 != linha2){
-        cout << "Nao eh possivel multiplicar";
+        cout << "Matriz invalida";
     }
     int matriz1[N][N]={0}, matriz2[N][N]={0}, produto[N][N]={0};
 
